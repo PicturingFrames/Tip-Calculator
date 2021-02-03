@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: #8E0E00;
+}
+#container {
+  height: 600px;
+  width: 500px;
+  background: #888;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff
+}
+#container h1 {
+  background: #555;
+  color: #fff;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+form input,
+input {
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+#selectRating {
+  padding: 10px;
+}
+#calculate {
+  padding: 0px 50px;
+  border-radius: 5px;
+  border: none;
+  background: #8E0E00;
+  color: #fff;
+}
+#calculate p {
+  font-size: 19px;
+}
+#total {
+  font-size: 20px;
+}
+#total:before {
+  content: "Tip amount";
+  font-size: 20px;
+  display: block;
+}
+#total p {
+  margin-top: 5px;
+}
